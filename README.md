@@ -1,8 +1,9 @@
-# Thoughts_With_Timmy
+  gem install bundler jekyll
 
-gem "minimal-mistakes-jekyll"
+  jekyll new my-awesome-site
 
+  cd my-awesome-site
 
-bundle
+  bundle exec jekyll serve
 
-theme: minimal-mistakes-jekyll
+# => Now browse to http://localhost:4000
